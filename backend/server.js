@@ -12,7 +12,7 @@ const calendarRouter = require("./routes/calendar");
 const app = express();
 app.use(
   cors({
-    origin: "https://visl-ai.vercel.app",
+    origin: "https://visl-fp2gxkqkw-yaniyas-projects.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
