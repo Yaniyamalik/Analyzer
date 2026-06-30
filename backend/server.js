@@ -10,13 +10,7 @@ const emailRouter = require("./routes/email");
 const calendarRouter = require("./routes/calendar");
 
 const app = express();
-app.use(
-  cors({
-    origin: "https://visl-fp2gxkqkw-yaniyas-projects.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-  })
-);
+app.use(cors());
 
 app.options("*", cors());
 app.use(express.json({ limit: "5mb" }));
