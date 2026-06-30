@@ -10,7 +10,15 @@ const emailRouter = require("./routes/email");
 const calendarRouter = require("./routes/calendar");
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://visl-ai.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+  })
+);
+
+app.options("*", cors());
 app.use(express.json({ limit: "5mb" }));
 
 app.get("/api/health", (req, res) => res.json({ status: "ok", timestamp: new Date() }));
