@@ -1,7 +1,7 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const MODEL = "gemini-2.0-flash"; // fast + generous free tier; swap to gemini-1.5-pro if needed
+const MODEL = "gemini-2.0-flash"; 
 
 function getModel() {
   return genAI.getGenerativeModel({ model: MODEL });
