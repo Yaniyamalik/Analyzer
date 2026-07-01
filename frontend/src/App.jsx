@@ -277,7 +277,7 @@ function ScheduleInterviews({ candidates, refreshCandidates }) {
   const [interval, setInterval] = useState(30);
   const [status, setStatus] = useState("");
   const [authUrl, setAuthUrl] = useState("");
-  const qualified = candidates.filter((c) => c.stage === "test_completed" || c.stage === "shortlisted");
+  const qualified = candidates.filter((c) =>  c.stage === "shortlisted");
 
   useEffect(() => {
     api.get("/calendar/auth-url").then(({ data }) => setAuthUrl(data.url)).catch(() => {});
