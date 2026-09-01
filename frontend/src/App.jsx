@@ -342,7 +342,7 @@ export default function App() {
 
       <header className="main-header">
 
-  <h1>VISL AI Candidate Screening Platform</h1>
+  <h1>Analyzer Candidate Screening Platform</h1>
 
   <div className="workflow-steps">
 
