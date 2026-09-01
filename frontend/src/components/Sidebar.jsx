@@ -12,7 +12,7 @@ const menuItems = [
 function Sidebar({ active, setActive }) {
   return (
     <div className="sidebar ">
-      <h2>VISL AI</h2>
+      <h2>Analyzer</h2>
 
       {menuItems.map((item, i) => (
         <button
