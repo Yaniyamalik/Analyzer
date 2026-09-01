@@ -1,5 +1,5 @@
 {
-  "name": "visl-ai-screener-backend",
+  "name": "analyzer-screener-backend",
   "version": "1.0.0",
   "description": "AI-powered candidate screening platform - backend",
   "main": "server.js",
