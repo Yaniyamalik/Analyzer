@@ -1,4 +1,4 @@
-# Visl AI — Candidate Screening Platform
+# Analyzer — Candidate Screening Platform
 
 AI-powered recruitment automation: upload candidates → AI-evaluate resumes &
 GitHub profiles against a job description → rank → email test links →
