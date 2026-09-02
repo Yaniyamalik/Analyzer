@@ -3,8 +3,8 @@
 AI-powered recruitment automation: upload candidates → AI-evaluate resumes &
 GitHub profiles against a job description → rank → email test links →
 ingest results → schedule real Google Calendar/Meet interviews.
-Frontend Link:https://visl-qzf0xljp8-yaniyas-projects.vercel.app/
-Backend Link:https://visl-ai.onrender.com
+Frontend Link:https://analyzer-z95z.vercel.app/
+Backend Link:https://analyzer-ldfx.onrender.com/
 See `ARCHITECTURE.md` for system design and reasoning behind key decisions.
 
 ## Stack
